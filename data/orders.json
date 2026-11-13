@@ -1,0 +1,8 @@
+[
+  {"id":"O01", "zone":"North", "distanceKm":10, "weightKg":2},
+  {"id":"O02", "zone":"South", "distanceKm":15, "weightKg":3},
+  {"id":"O03", "zone":"West",  "distanceKm":20, "weightKg":4},
+  {"id":"O04", "zone":"North", "distanceKm":12, "weightKg":4},
+  {"id":"O05", "zone":"South", "distanceKm":5, "weightKg":1},
+  {"id":"O06", "zone":"West",  "distanceKm":120,"weightKg":2}
+]

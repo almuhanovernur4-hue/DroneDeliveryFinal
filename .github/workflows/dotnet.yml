@@ -1,0 +1,20 @@
+name: Compile and verify drone delivery planner
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  linux-x64:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build native C library
+        run: bash native/build-linux.sh
+      - name: Restore and build
+        run: |
+          dotnet restore DroneDeliveryFinal.slnx
+          dotnet build DroneDeliveryFinal.slnx -c Release --no-restore
+      - name: Run 36 deterministic tests
+        run: dotnet run --project tests/DronePlanner.Tests -c Release --no-build
+      - name: Reproducible demo
+        run: dotnet run --project src/DronePlanner.App -c Release --no-build -- --demo

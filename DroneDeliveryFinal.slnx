@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/DronePlanner.Core/DronePlanner.Core.csproj" />
+  <Project Path="src/DronePlanner.App/DronePlanner.App.csproj" />
+  <Project Path="tests/DronePlanner.Tests/DronePlanner.Tests.csproj" />
+</Solution>

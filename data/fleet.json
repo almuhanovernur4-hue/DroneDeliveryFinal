@@ -1,0 +1,10 @@
+{
+  "drones": [
+    {"id":"D01", "zone":"North", "charge":95, "maxPayloadKg":5, "status":0},
+    {"id":"D02", "zone":"North", "charge":95, "maxPayloadKg":8, "status":0},
+    {"id":"D03", "zone":"South", "charge":65, "maxPayloadKg":5, "status":0},
+    {"id":"D04", "zone":"South", "charge":45, "maxPayloadKg":3, "status":0},
+    {"id":"D05", "zone":"West",  "charge":100,"maxPayloadKg":10,"status":0}
+  ],
+  "plans": []
+}
