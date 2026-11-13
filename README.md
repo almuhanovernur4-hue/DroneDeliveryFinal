@@ -12,9 +12,9 @@ It is the integrated and improved version of our code from Assignments 5–8.
 
 - Git repository URL: https://github.com/almuhanovernur4-hue/DroneDeliveryFinal
 - Branch: `main`
-- Final commit: `8e30d4b68e8a88370770e307ea8d271c6447423e`
+- Final commit: `3872d46c4d7836d06b47fb3ff5735b607b5a9f9a`
 
-The archive uploaded to Moodle matches this commit.
+The archive uploaded to Moodle has the content of this commit. The one commit after it only records this hash in this README and in the four PDF reports.
 
 ## 2. Prerequisites
 
