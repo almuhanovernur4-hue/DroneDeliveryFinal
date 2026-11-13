@@ -10,9 +10,9 @@ It is the integrated and improved version of our code from Assignments 5–8.
 
 ## 1. Submitted version
 
-- Git repository URL: `<FILL IN>`
-- Branch: `<FILL IN>`
-- Final commit: `<FILL IN>`
+- Git repository URL: https://github.com/almuhanovernur4-hue/DroneDeliveryFinal
+- Branch: `main`
+- Final commit: `8e30d4b68e8a88370770e307ea8d271c6447423e`
 
 The archive uploaded to Moodle matches this commit.
 
@@ -193,7 +193,7 @@ src/DronePlanner.App/  console, files, native adapter
 tests/DronePlanner.Tests/
 native/                drone_native.c, drone_native.h, build scripts
 runtime/               prebuilt native libraries (win-x64, linux-x64)
-docs/                  group report and individual report
+docs/                  group report and three individual reports (PDF)
 legacy/                code from Assignments 5–8, kept for reference, not compiled
 .github/workflows/     CI: build, tests, demo
 ```
